@@ -1,0 +1,3 @@
+participant_id	source_id	sex	age	ilae_class_paper	ilae_release	outcome_release	did_resect	seizure_focus_paper	pathology_paper	soz_resection_percent_paper	definitive_surgery_paper	total_hfo_count	n_channels	n_soz_channels	n_rv_channels	related_raw_dataset
+sub-UMHS0028	UMHS-0028	F	14	1	1	1	1	R T	Tumour: Glioma	100	Y	216041	53	5	18	nm000444 (sub-UMHS0028)
+sub-UMHS0030	UMHS-0030	M	5	5	3	3	1	L T	MTS, Gliosis	100	Y	441168	100	2	36	n/a

@@ -1,0 +1,20 @@
+{
+  "trial_type": {
+    "Description": "hfo_snippet: snippet centred on a detected HFO; background_snippet: snippet of background (non-HFO) activity"
+  },
+  "sample": {
+    "Description": "First sample of the snippet in the concatenated BrainVision file (0-based)"
+  },
+  "snippet": {
+    "Description": "Snippet number in the release (cell index of data.filtdata / data.rmsdata, 1-based)"
+  },
+  "used_day_no": {
+    "Description": "usedDayNo of the background file: recording day of the snippet (relative)"
+  },
+  "used_interval_start": {
+    "Description": "usedIntervals row 1: start sample of the background snippet in the original recording day/session"
+  },
+  "used_interval_stop": {
+    "Description": "usedIntervals row 2: stop sample"
+  }
+}

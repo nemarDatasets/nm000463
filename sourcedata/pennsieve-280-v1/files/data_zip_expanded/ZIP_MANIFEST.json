@@ -1,0 +1,74 @@
+{
+  "zip": "files/data.zip",
+  "zip_sha256": "91493228d340ddfd25242e3e17c1ae0f72ec513bc696747fe8bfcb9a653a1715",
+  "zip_size": 2084987859,
+  "members": [
+    {
+      "name": "Data/",
+      "size": 0,
+      "crc32": "00000000",
+      "date_time_month": "2022-10"
+    },
+    {
+      "name": "Data/BKGEEG/",
+      "size": 0,
+      "crc32": "00000000",
+      "date_time_month": "2022-10"
+    },
+    {
+      "name": "Data/BKGEEG/UMHS-0028.mat",
+      "size": 746022978,
+      "crc32": "e02a1cda",
+      "date_time_month": "2022-01"
+    },
+    {
+      "name": "Data/BKGEEG/UMHS-0030.mat",
+      "size": 1643188124,
+      "crc32": "e95cdf0f",
+      "date_time_month": "2022-01"
+    },
+    {
+      "name": "Data/CombinedData/",
+      "size": 0,
+      "crc32": "00000000",
+      "date_time_month": "2022-10"
+    },
+    {
+      "name": "Data/CombinedData/combinedPatientData.mat",
+      "size": 264442,
+      "crc32": "c90b6a5b",
+      "date_time_month": "2022-10"
+    },
+    {
+      "name": "Data/HFOEEG/",
+      "size": 0,
+      "crc32": "00000000",
+      "date_time_month": "2022-10"
+    },
+    {
+      "name": "Data/PatientData/",
+      "size": 0,
+      "crc32": "00000000",
+      "date_time_month": "2022-10"
+    },
+    {
+      "name": "Data/PatientData/UMHS-0028.mat",
+      "size": 7354098,
+      "crc32": "07ee2ae7",
+      "date_time_month": "2022-10"
+    },
+    {
+      "name": "Data/PatientData/UMHS-0030.mat",
+      "size": 22299640,
+      "crc32": "cb839a04",
+      "date_time_month": "2022-10"
+    },
+    {
+      "name": "Data/README.txt",
+      "size": 2271,
+      "crc32": "d21639bf",
+      "date_time_month": "2022-10"
+    }
+  ],
+  "note": "data.zip (released as one archive) is stored expanded here: member bytes identical to the archive except MAT-file header creation dates (day 01, time removed). Member CRC-32 verified on extraction. Archive member timestamps are given as year-month only."
+}

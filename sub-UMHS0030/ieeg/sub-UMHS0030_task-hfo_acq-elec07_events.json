@@ -1,0 +1,44 @@
+{
+  "trial_type": {
+    "Description": "hfo_snippet: snippet centred on a detected HFO; background_snippet: snippet of background (non-HFO) activity"
+  },
+  "sample": {
+    "Description": "First sample of the snippet in the concatenated BrainVision file (0-based)"
+  },
+  "snippet": {
+    "Description": "Snippet number in the release (cell index of data.filtdata / data.rmsdata, 1-based)"
+  },
+  "hfo_index": {
+    "Description": "hfoI: 1-based index of this HFO in PatientInfo.HFO of the release"
+  },
+  "hfo_startTime": {
+    "Description": "PatientInfo.HFO.startTime as released (relative time; units not stated in the release)"
+  },
+  "hfo_stopTime": {
+    "Description": "PatientInfo.HFO.stopTime as released (relative time; units not stated in the release)"
+  },
+  "hfo_stdChanI": {
+    "Description": "PatientInfo.HFO.stdChanI: position (1-based) of the channel on which the HFO was detected, in the channel order of this file"
+  },
+  "hfo_stdChanIdx": {
+    "Description": "PatientInfo.HFO.stdChanIdx: standard channel index of the detection channel"
+  },
+  "hfo_DayIdx": {
+    "Description": "PatientInfo.HFO.DayIdx: recording day number (relative)"
+  },
+  "hfo_SesIdx": {
+    "Description": "PatientInfo.HFO.SesIdx: recording session number (relative)"
+  },
+  "hfo_sleepStage": {
+    "Description": "PatientInfo.HFO.sleepStage as released (coding not stated in the release)"
+  },
+  "hfo_ictalState": {
+    "Description": "PatientInfo.HFO.ictalState as released (coding not stated in the release)"
+  },
+  "hfo_isPoorQ": {
+    "Description": "PatientInfo.HFO.isPoorQ (1 = poor-quality period)"
+  },
+  "hfo_isEMG": {
+    "Description": "PatientInfo.HFO.isEMG (1 = flagged as EMG)"
+  }
+}

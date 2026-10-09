@@ -1,0 +1,8 @@
+{
+  "soz": {
+    "Description": "PatientInfo.Electrodes.SOZ: contact in the clinically defined seizure onset zone (true/false)"
+  },
+  "rv": {
+    "Description": "PatientInfo.Electrodes.RV: contact in the resected volume (true/false)"
+  }
+}

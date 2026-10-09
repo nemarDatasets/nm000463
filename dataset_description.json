@@ -1,0 +1,40 @@
+{
+  "Name": "Network dynamics of HFOs (Lin & Stacey; Michigan): filtered and RMS iEEG snippets around interictal HFOs, 2 patients (derivative)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-SA-4.0",
+  "Authors": [
+    "Jack Lin",
+    "William C. Stacey"
+  ],
+  "Acknowledgements": "Original release on Pennsieve Discover (dataset 280 version 1, Stacey Lab, University of Michigan). Article authors: Jack Lin, Garnett C. Smith, Stephen V. Gliske, Michal Zochowski, Kerby Shedden, William C. Stacey.",
+  "HowToAcknowledge": "Cite the source dataset (Lin J, Stacey WC. Network dynamics of HFOs. Pennsieve 2022, doi:10.26275/2yv6-g6vh) and the article (Lin J, Smith GC, Gliske SV, Zochowski M, Shedden K, Stacey WC. High frequency oscillation network dynamics predict outcome in non-palliative epilepsy surgery. Brain Communications 2024;6(1):fcae032, doi:10.1093/braincomms/fcae032).",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.26275/2yv6-g6vh",
+    "https://discover.pennsieve.io/datasets/280/version/1",
+    "https://doi.org/10.1093/braincomms/fcae032",
+    "https://github.com/J4KLin/HFO-Network",
+    "https://doi.org/10.7302/n9rt-sc45"
+  ],
+  "EthicsApprovals": [
+    "All patient data used in this study are approved by the local Institutional Review Board with written patient consent to share and use their de-identified information. [verbatim, Lin et al., Brain Communications 2024, doi:10.1093/braincomms/fcae032, Materials and methods]"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "HFO-Network",
+      "Description": "Authors' HFO detection, filtering/RMS and network pipeline that produced the released files",
+      "CodeURL": "https://github.com/J4KLin/HFO-Network"
+    },
+    {
+      "Name": "b3pen NEMAR repackaging",
+      "Description": "BIDS repackaging for NEMAR (iEEG campaign 2026-10): released files under sourcedata/ (data.zip expanded), HFO and background snippets to BrainVision float32 with per-snippet events, electrode coordinates to electrodes.tsv. No values recomputed."
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.26275/2yv6-g6vh",
+      "URL": "https://discover.pennsieve.io/datasets/280/version/1",
+      "Version": "1"
+    }
+  ]
+}

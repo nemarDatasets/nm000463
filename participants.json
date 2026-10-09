@@ -1,0 +1,59 @@
+{
+  "participant_id": {
+    "Description": "BIDS label from the release patient code (UMHS-0028 -> sub-UMHS0028, same label as in NEMAR nm000444)"
+  },
+  "source_id": {
+    "Description": "Patient code in the release (public pseudonym of the Michigan high-resolution EEG database)"
+  },
+  "sex": {
+    "Description": "Sex, Lin et al. 2024 Table 1",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
+  },
+  "age": {
+    "Description": "Age, Lin et al. 2024 Table 1",
+    "Units": "year"
+  },
+  "ilae_class_paper": {
+    "Description": "ILAE outcome class, Lin et al. 2024 Table 1"
+  },
+  "ilae_release": {
+    "Description": "PatientInfo.ILAE as released (the release README describes the patients as one Engel I and one Engel III outcome)"
+  },
+  "outcome_release": {
+    "Description": "PatientInfo.outcome as released"
+  },
+  "did_resect": {
+    "Description": "PatientInfo.didResect as released (1 = resective surgery)"
+  },
+  "seizure_focus_paper": {
+    "Description": "Seizure focus (hemisphere, region), Lin et al. 2024 Table 1 (R/L = right/left, T = temporal)"
+  },
+  "pathology_paper": {
+    "Description": "Pathology, Lin et al. 2024 Table 1"
+  },
+  "soz_resection_percent_paper": {
+    "Description": "Percent of the seizure onset zone resected, Lin et al. 2024 Table 1",
+    "Units": "%"
+  },
+  "definitive_surgery_paper": {
+    "Description": "Non-palliative definitive surgery (>= 80% SOZ resected), Lin et al. 2024 Table 1"
+  },
+  "total_hfo_count": {
+    "Description": "Total HFO count: Lin et al. 2024 Table 1; equals the number of HFO entries in PatientInfo.HFO of the release"
+  },
+  "n_channels": {
+    "Description": "Channels in the released snippets (PatientInfo.Electrodes.nChan)"
+  },
+  "n_soz_channels": {
+    "Description": "PatientInfo.Electrodes.SOZn"
+  },
+  "n_rv_channels": {
+    "Description": "PatientInfo.Electrodes.RVn (contacts in the resected volume per the release)"
+  },
+  "related_raw_dataset": {
+    "Description": "NEMAR dataset with the raw recordings of this patient, if any"
+  }
+}

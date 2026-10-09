@@ -1,0 +1,26 @@
+{
+  "type": {
+    "Description": "Channel type: from NEMAR nm000444 for UMHS-0028 (verified mapping, see ieeg.json Description); MISC where not stated in the release"
+  },
+  "x_avg": {
+    "Description": "sejin3DCoords.avgCoords x as released (space not stated)"
+  },
+  "y_avg": {
+    "Description": "sejin3DCoords.avgCoords y as released (space not stated)"
+  },
+  "z_avg": {
+    "Description": "sejin3DCoords.avgCoords z as released (space not stated)"
+  },
+  "soz": {
+    "Description": "PatientInfo.Electrodes.SOZ (clinically defined seizure onset zone)"
+  },
+  "rv": {
+    "Description": "PatientInfo.Electrodes.RV (contact in the resected volume)"
+  },
+  "rest": {
+    "Description": "PatientInfo.Electrodes.REST (contact outside the resected volume)"
+  },
+  "std_chan_idx": {
+    "Description": "PatientInfo.Electrodes.stdEEGChanIdx (standard channel index)"
+  }
+}

@@ -1,0 +1,107 @@
+name	type	units	low_cutoff	high_cutoff	status	description	soz	rv
+AD1	SEEG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 1)	false	true
+AD2	SEEG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 2)	false	true
+AD3	SEEG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 3)	true	true
+AD4	SEEG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 4)	true	true
+AD5	SEEG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 5)	true	true
+AD6	SEEG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 6)	true	true
+FA1	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 7)	false	false
+FA2	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 8)	false	false
+FA3	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 9)	false	false
+FA4	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 10)	false	false
+FA5	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 11)	false	false
+FA6	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 12)	false	false
+FA7	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 13)	false	false
+FA8	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 14)	false	false
+FA9	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 15)	false	false
+FA10	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 16)	false	false
+FO11	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 17)	false	false
+FO12	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 18)	false	false
+FO13	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 19)	false	false
+FO14	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 20)	false	false
+FO15	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 21)	false	false
+FO16	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 22)	false	false
+FO17	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 23)	false	false
+FO18	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 24)	false	false
+FO19	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 25)	false	false
+FO20	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 26)	false	false
+AT5	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 31)	false	true
+AP1	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 33)	true	true
+AP2	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 34)	false	true
+AP3	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 35)	false	true
+AP4	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 36)	false	true
+AP5	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 37)	false	true
+MT1	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 39)	false	true
+MT2	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 40)	false	true
+MT3	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 41)	false	true
+MT4	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 42)	false	true
+MT5	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 43)	false	true
+MT6	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 44)	false	true
+PT1	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 45)	false	false
+PT2	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 46)	false	false
+PT3	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 47)	false	false
+PT6	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 50)	false	false
+PT7	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 51)	false	false
+PT8	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 52)	false	false
+PT9	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 53)	false	false
+BT11	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 55)	false	false
+BT12	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 56)	false	false
+BT13	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 57)	false	false
+BT14	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 58)	false	false
+BT16	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 60)	false	false
+BT17	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 61)	false	false
+BT18	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 62)	false	false
+BT19	ECOG	n/a	80	500	good	80-500 Hz filtered signal (standard channel index 63)	false	false
+AD1_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 1)	false	true
+AD2_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 2)	false	true
+AD3_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 3)	true	true
+AD4_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 4)	true	true
+AD5_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 5)	true	true
+AD6_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 6)	true	true
+FA1_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 7)	false	false
+FA2_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 8)	false	false
+FA3_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 9)	false	false
+FA4_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 10)	false	false
+FA5_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 11)	false	false
+FA6_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 12)	false	false
+FA7_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 13)	false	false
+FA8_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 14)	false	false
+FA9_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 15)	false	false
+FA10_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 16)	false	false
+FO11_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 17)	false	false
+FO12_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 18)	false	false
+FO13_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 19)	false	false
+FO14_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 20)	false	false
+FO15_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 21)	false	false
+FO16_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 22)	false	false
+FO17_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 23)	false	false
+FO18_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 24)	false	false
+FO19_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 25)	false	false
+FO20_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 26)	false	false
+AT5_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 31)	false	true
+AP1_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 33)	true	true
+AP2_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 34)	false	true
+AP3_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 35)	false	true
+AP4_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 36)	false	true
+AP5_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 37)	false	true
+MT1_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 39)	false	true
+MT2_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 40)	false	true
+MT3_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 41)	false	true
+MT4_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 42)	false	true
+MT5_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 43)	false	true
+MT6_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 44)	false	true
+PT1_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 45)	false	false
+PT2_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 46)	false	false
+PT3_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 47)	false	false
+PT6_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 50)	false	false
+PT7_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 51)	false	false
+PT8_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 52)	false	false
+PT9_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 53)	false	false
+BT11_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 55)	false	false
+BT12_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 56)	false	false
+BT13_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 57)	false	false
+BT14_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 58)	false	false
+BT16_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 60)	false	false
+BT17_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 61)	false	false
+BT18_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 62)	false	false
+BT19_rms	MISC	n/a	80	500	good	RMS envelope of the 80-500 Hz filtered signal (standard channel index 63)	false	false

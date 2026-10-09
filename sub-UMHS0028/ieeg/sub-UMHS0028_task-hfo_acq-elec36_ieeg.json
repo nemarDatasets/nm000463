@@ -1,0 +1,19 @@
+{
+  "TaskName": "hfo",
+  "TaskDescription": "Interictal HFO snippets: up to 500 detected HFOs on electrode elec36, all channels shown",
+  "SamplingFrequency": 3600.0,
+  "PowerLineFrequency": 60,
+  "RecordingType": "epoched",
+  "EpochLength": 0.400278,
+  "RecordingDuration": 200.138889,
+  "SoftwareFilters": {
+    "Bandpass": {
+      "Description": "80-500 Hz filtered (release README); RMS channels are the smoothed root-mean-square of the filtered signal"
+    }
+  },
+  "iEEGReference": "Recording reference: lab standard placed between Fz and Cz (Lin et al. 2024, Data acquisition). Re-referencing of the released snippets is not stated.",
+  "ECOGChannelCount": 47,
+  "SEEGChannelCount": 6,
+  "MiscChannelCount": 53,
+  "Description": "Converted from files/UMHS-0028-elec36.mat (MATLAB 7.3): data.filtdata / data.rmsdata cells (500 snippets x 1441 samples x 53 channels), concatenated in snippet order (events.tsv gives the boundaries). SamplingFrequency is the file's FS variable (3600 Hz); the recording rate in PatientInfo.fs is 4096 Hz. Values stored as IEEE float32 (source float64). Channel naming: labels/types from NEMAR nm000444 (sub-UMHS0028/ses-0002/ieeg/sub-UMHS0028_ses-0002_task-ltm_acq-day05_channels.tsv) indexed by Electrodes.stdEEGChanIdx; verified: the released SOZ mask maps exactly onto nm000444's soz channels ['AD3', 'AD4', 'AD5', 'AD6', 'AP1']. Amplitude units are not stated in the release (units n/a)."
+}
