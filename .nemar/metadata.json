@@ -1,12 +1,39 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
+  "title": "Network dynamics of HFOs (Lin & Stacey; Michigan): filtered and RMS iEEG snippets around interictal HFOs, 2 patients (derivative)",
+  "description": "A derivative BIDS-iEEG repackaging of the Pennsieve 'Network dynamics of HFOs' release from the Stacey Lab at the University of Michigan. It contains filtered (80-500 Hz) and RMS-envelope intracranial EEG snippets around interictal high frequency oscillations (HFOs), plus background snippets, from two epilepsy surgery patients with good and poor outcomes. Per-snippet HFO metadata, electrode coordinates, seizure onset zone and resection masks, and clinical participant information are included to support HFO network analysis in epilepsy surgery outcome prediction.",
+  "methods_description": "HFOs were detected on intracranial electrodes from long-term recordings (4096 Hz) using the authors' HFO-Network pipeline. Up to 500 snippets of 1441 samples at 3600 Hz around HFOs per electrode were extracted, showing all channels, with 80-500 Hz filtered signal and RMS envelope channels. 500 background (non-HFO) snippets per patient were also included. Data were repackaged to BrainVision float32 with per-snippet events, and electrode coordinates were written to electrodes.tsv without recomputing values.",
+  "license": "CC-BY-SA-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Jack Lin": {},
     "William C. Stacey": {
       "orcid": "0000-0002-8359-8057"
     }
   },
+  "keywords": [
+    {
+      "term": "iEEG"
+    },
+    {
+      "term": "high frequency oscillations"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "epilepsy surgery outcome"
+    },
+    {
+      "term": "network dynamics"
+    },
+    {
+      "term": "seizure onset zone"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.26275/2yv6-g6vh",
@@ -34,14 +61,11 @@
       "relation_type": "IsDescribedBy"
     }
   ],
-  "title": "Network dynamics of HFOs (Lin & Stacey; Michigan): filtered and RMS iEEG snippets around interictal HFOs, 2 patients (derivative)",
-  "license": "CC-BY-SA-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "204 GB (469 files)"
   ],
@@ -55,31 +79,8 @@
     ".tsv",
     ".txt",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "A derivative BIDS-iEEG repackaging of the Pennsieve dataset 'Network dynamics of HFOs' from the Stacey Lab at the University of Michigan. It contains 80-500 Hz filtered intracranial EEG snippets and RMS envelopes around interictal high frequency oscillations (HFOs), plus background snippets, from two epilepsy surgery patients with good and poor outcomes. Per-snippet events, electrode coordinates, and seizure-onset-zone and resection masks support HFO network analysis in relation to surgical outcome.",
-  "methods_description": "HFOs were detected with the authors' HFO-Network pipeline. Up to 500 snippets of 1441 samples at 3600 Hz around HFOs were released per electrode, showing all channels, as 80-500 Hz filtered signal with RMS envelope channels. Background snippets were also included. The released MAT files were repackaged to BrainVision float32 with per-snippet events and electrode coordinates in electrodes.tsv, without recomputing any values.",
-  "keywords": [
-    {
-      "term": "iEEG"
-    },
-    {
-      "term": "High frequency oscillations"
-    },
-    {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    },
-    {
-      "term": "Epilepsy surgery"
-    },
-    {
-      "term": "Network analysis"
-    },
-    {
-      "term": "Seizure onset zone"
-    }
-  ],
-  "source_hash": "02ebbb0bbd77375cc9a8c28cb21c1833041a31c5b6f38c2f2a3e2798b92a98b4"
+  "source_hash": "9aa1b980ae542ccb625f6dca1d0208259898d618ee80bdc97bc42b401f8b092d"
 }
