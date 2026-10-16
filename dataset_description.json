@@ -1,5 +1,5 @@
 {
-  "Name": "Network dynamics of HFOs (Lin & Stacey; Michigan): filtered and RMS iEEG snippets around interictal HFOs, 2 patients (derivative)",
+  "Name": "Lin-2023-high-10.1093/braincomms/fcae032",
   "BIDSVersion": "1.10.0",
   "DatasetType": "derivative",
   "License": "CC-BY-SA-4.0",
@@ -38,5 +38,5 @@
     }
   ],
   "DatasetDOI": "10.82901/nemar.nm000463",
-  "Version": "1.0.0"
+  "Version": "1.0.1"
 }
