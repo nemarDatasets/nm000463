@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Network dynamics of HFOs (Lin & Stacey; Michigan): filtered and RMS iEEG snippets around interictal HFOs, 2 patients (derivative)",
-  "description": "This derivative BIDS-iEEG dataset repackages snippets of interictal high frequency oscillations (HFOs) and background intracranial EEG from two epilepsy surgery patients, one with a good and one with a poor outcome. It includes 80-500 Hz filtered signals for all channels, RMS envelopes, per-HFO metadata, electrode coordinates, and seizure-onset-zone and resection masks. The data support analysis of HFO network dynamics as a predictor of surgical outcome in non-palliative epilepsy surgery. The source dataset was released by Jack Lin and William C. Stacey; the associated article (Brain Communications 2024, doi:10.1093/braincomms/fcae032) was written by Jack Lin, Garnett C. Smith, Stephen V. Gliske, Michal Zochowski, Kerby Shedden and William C. Stacey.",
-  "methods_description": "Intracranial EEG was recorded long-term (4096 Hz) and HFOs were detected with the authors' HFO-Network pipeline. Snippets of 1441 samples at 3600 Hz around each HFO were extracted, with up to 500 per electrode, along with 500 background snippets per patient. Signals were bandpass filtered at 80-500 Hz and RMS envelopes were computed. The released files were repackaged into BrainVision float32 format with per-snippet events, without recomputing any values.",
+  "description": "A derivative BIDS-iEEG repackaging of the Pennsieve 'Network dynamics of HFOs' release. It contains 80-500 Hz filtered signals and RMS envelopes in snippets around interictal high frequency oscillations (HFOs), plus background snippets, from two epilepsy surgery patients with good and poor outcomes. Per-snippet events, electrode coordinates, and seizure-onset-zone and resection masks are included to support HFO network analysis in refractory epilepsy.",
+  "methods_description": "Snippets of 1441 samples at 3600 Hz were extracted around HFOs detected on each electrode (up to 500 per electrode file), showing all channels as 80-500 Hz filtered signal with RMS envelope channels. Background non-HFO snippets (500 per patient) are also provided. The original float64 values were written to BrainVision float32 without recomputation, with per-snippet events and electrode coordinates stored in BIDS sidecar files.",
   "license": "CC-BY-SA-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -14,7 +14,7 @@
   },
   "keywords": [
     {
-      "term": "intracranial EEG"
+      "term": "iEEG"
     },
     {
       "term": "high frequency oscillations"
@@ -28,10 +28,10 @@
       "term": "epilepsy surgery"
     },
     {
-      "term": "network dynamics"
+      "term": "seizure onset zone"
     },
     {
-      "term": "seizure onset zone"
+      "term": "network analysis"
     }
   ],
   "related_identifiers": [
